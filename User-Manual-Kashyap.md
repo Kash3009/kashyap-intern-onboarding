@@ -1,90 +1,76 @@
-# User Manual — Kashyap
+# User Manual for Kashyap
 
-## About Me
+## My Role
+Product Management Intern  
+Currently working through onboarding tasks, research, feature understanding, and learning internal workflows.
 
-I’m someone who genuinely enjoys learning, improving, and being part of a team that’s building something meaningful. I take pride in doing good work, showing initiative, and supporting the people I collaborate with. 
-I’m curious, driven, and I like solving problems with a calm, thoughtful approach.
+## Availability
+I generally work flexible hours, but the best windows to reach me or expect quicker replies are:
+- Monday–Friday: mornings to late evenings  
+- Weekends: available if needed, but prefer scheduled communication  
 
 ---
 
 ## How I Work Best
+I do my best work when expectations are clear and the goals are well-defined. Once aligned, I’m independent and proactive — I don’t need constant check-ins, but I appreciate clarity at the start.
 
-I do my best work when expectations are clear and there’s shared alignment on priorities. Once I understand the goal and context, I work independently and deliver reliably. 
-I’m proactive about asking questions when something is unclear and I value open communication.
-I enjoy working in focused blocks and tend to enter deep concentration when I'm analyzing information, planning, or making product decisions.
+I enjoy structured workflows, thoughtful planning, and knowing the *why* behind a task. Deep focus time helps me do my best work.
+
+I struggle when tasks are vague with no clarity on expectations or outcomes. If something feels unclear, I’ll ask questions rather than guess.
 
 ---
 
 ## Communication Style
+- I prefer messages that are clear, purposeful, and to the point.
+- Written communication works well for me, especially when there are multiple steps.
+- I’m happy to jump on a short call if something requires fast alignment.
+- Tone matters — I appreciate calm, respectful communication.
 
-I appreciate communication that is direct, encouraging, and clear. Bullet points, structure, or examples help me process information faster. 
-I’m happy with async messages for most things, but I also appreciate quick calls when fast clarification is needed.
-I aim to respond promptly, with clarity and respect.
-
----
-
-## Feedback Preferences
-
-I value honest, specific feedback. I don’t view feedback as criticism — I see it as coaching and a chance to get better. 
-If something can be improved, I’d rather know early so I can adjust quickly and move forward with confidence.
-Written feedback is great because I like revisiting it, but I’m also comfortable discussing feedback live.
+**Best way to reach me:** Discord or direct message.  
+**If urgent:** Tag me and send a short, clear note on what’s needed.
 
 ---
 
-## How I Stay Focused and Productive
+## Collaboration & Teamwork
+I work best in a team where communication is honest, respectful, and direct.  
+I value supportive environments where questions are normal and feedback is constructive.
 
-- A calm environment or headphones  
-- A clear list of priorities  
-- Working in deep focus sessions with breaks  
-- Understanding the “why” behind a task  
+My biggest pet peeve in teamwork is unclear ownership or long back-and-forth messages that could’ve been a simple short call.
 
----
-
-## What I Need From Teammates
-
-- Clarity when assigning tasks  
-- Transparency if priorities change  
-- A respectful and supportive tone  
-- Communication with intention rather than urgency  
+If I seem quiet in a meeting, it usually means I’m processing the information, I’ll speak when I have something meaningful to add.
 
 ---
 
-## What You Can Expect From Me
+## Focus & Productivity
+I stay focused by working in blocks and limiting distractions.  
+Things like music, timers, and task lists help me stay consistent.
 
-- Reliability — if I commit to something, I’ll follow through  
-- Respect — for people, timelines, and processes  
-- Thoughtful work — not rushed, but intentional and quality-focused  
-- A positive mindset — I enjoy working with people and contributing to a good team culture  
-- Curiosity and continuous improvement — I’m always looking for better ways to work  
+Things that distract me are frequent interruptions or rapidly changing priorities without context.
 
----
-
-## My Work Style
-
-- I take a bit of time to think before responding to complex topics — I process internally first  
-- Once aligned, I work quickly and efficiently  
-- I prefer structure but I’m adaptable when things change  
-- I enjoy collaborating but I’m also comfortable working independently  
+The best way to support my productivity is to give me clarity on priorities and outcomes, I’ll take care of the rest.
 
 ---
 
-## How to Work Well With Me
+## Feedback & Growth
+I prefer feedback that is:
+- Specific  
+- Actionable  
+- Constructive  
+- Delivered respectfully  
 
-- Be clear with expectations  
-- Share context, not just instructions  
-- Let me ask clarifying questions  
-- Give me space to focus when I’m deep in work  
-- Tell me early if something needs adjusting  
+You don’t need to sugarcoat things, honesty helps me grow faster. If I make a mistake, let me know directly and early so I can fix it.
+
+I appreciate when teammates give context, examples, or suggestions, it helps me improve and learn faster.
 
 ---
 
-## What I Won’t Do
+## Fun Facts & Quirks
+One thing people often misunderstand is that if I’m quiet, I’m not disengaged I’m thinking.
 
-- Ignore messages  
-- Leave tasks unclear or unfinished  
-- Take feedback personally  
-- Create unnecessary complexity  
-- Contribute negativity or disrespect
+A fun fact about me: I'm always learning something new, whether it's about product, design, psychology, or strategy.
+
+**My work superpower:**  
+I’m calm under pressure, curious, and always willing to learn and improve I push myself to deliver quality and become better with every task.
 
 ---
 
