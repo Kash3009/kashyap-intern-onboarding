@@ -1,38 +1,52 @@
-# Feature One-Pager: Onboarding & Focus Timer UX Improvements
+## Wireframe / Annotated User Journey (Annotated Visual Flow)
 
-## Feature Name
-Onboarding & Focus Timer UX Improvements
+Below is a step-by-step annotated representation of the user journey, referencing specific screen elements and layout zones to act as a visual guide for developers and designers.
 
----
-
-## Problem Statement
-While the Focus Bear app is welcoming and supportive in tone, several UX issues during onboarding and early focus setup create unnecessary friction. These include header truncation due to unsafe padding, inconsistent spacing, and a timer selector that feels static and unclear.
-
-For neurodivergent users (ADHD and Autistic users), predictability, visual clarity, and smooth interaction are critical. Small UX inconsistencies during the first session can increase cognitive load and reduce trust in the product, potentially impacting onboarding completion and early engagement.
+### Screen 1: Welcome / Greeting Screen
+- **Top area (Header):**
+  - Current issue: Greeting text (“Hi [email]”) is partially hidden by the system status bar.
+  - Proposed change: Add safe-area padding and replace email greeting with nickname input during onboarding.
+- **Visual reference:** Header container + greeting text area.
 
 ---
 
-## Target Users
-- First-time Focus Bear users.
-- Neurodivergent users (ADHD, Autism) who benefit from predictable and accessible interfaces.
-- Existing users setting up focus sessions, especially in Super Strict Mode.
+### Screen 2: Home → Overview
+- **Top navigation bar:**
+  - Issue: App title and health status icons appear truncated or visually crowded on smaller screens.
+  - Proposed change: Increase top padding and enforce consistent spacing rules across screens.
+- **Visual reference:** App title, status icons, and top container alignment.
 
 ---
 
-## User Stories & Scenarios
-
-### User Stories
-- As a new user, I want onboarding screens to be visually clear so I can focus on understanding the app instead of interpreting the UI.
-- As a user setting up a focus session, I want the timer selector to feel smooth and intuitive so I can confidently choose a duration.
-- As a user with ADHD, I want predictable animations and spacing so the interface does not distract or overwhelm me.
-
-### Scenarios
-- User logs in for the first time → header text is partially hidden by the system status bar.
-- User navigates Home → Overview → Focus → Stats → notices inconsistent spacing and truncated headers.
-- User starts a focus session → timer scroll stops mid-motion and shows unclear formatting (e.g., “55..”).
-- User enables Super Strict Mode → experiences the same UI issues, indicating they are not mode-specific.
+### Screen 3: Focus Tab (Timer Selection)
+- **Timer selector (scroll wheel):**
+  - Issue:
+    - Scroll wheel stops abruptly instead of looping naturally.
+    - Timer formatting shows unclear values (e.g. “55..”).
+  - Proposed change:
+    - Infinite looping scroll (native picker behaviour).
+    - Clean numeric formatting (e.g. “55 min”).
+- **Visual reference:** Timer picker component and numeric labels.
 
 ---
 
-## Wireframe / Annotated User Journey (Text Description)
+### Screen 4: Focus Session (Super Strict Mode Enabled)
+- **Session start state:**
+  - Issue: UI issues persist regardless of mode, indicating shared layout components.
+  - Proposed change: Apply layout fixes globally across all modes.
+- **Visual reference:** Focus session screen with strict mode indicator.
 
+---
+
+### Screen 5: Stats Tab
+- **Header & spacing:**
+  - Issue: Header text competes visually with system UI.
+  - Proposed change: Consistent spacing and typography hierarchy across all tabs.
+- **Visual reference:** Stats screen header and content container.
+
+---
+
+### Summary Visual Flow
+Login → Welcome Screen → Home Overview → Focus Timer Selection → Active Focus Session → Stats Review
+
+Each step highlights where visual clarity, spacing, and predictability can be improved to reduce cognitive load and improve onboarding confidence.
