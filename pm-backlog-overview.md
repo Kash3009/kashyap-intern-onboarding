@@ -1,121 +1,163 @@
+## Understanding How the Backlog Works (Based on Direct GitHub Access)
 
-## Understanding How the Backlog Works (Based on Available Access)
+After receiving access to Focus Bear’s GitHub Projects, I reviewed the **Mobile App Tasks** board, which is the primary backlog used by the mobile team. This summary is based on direct observation of real backlog items, their labels, and how they are organised across workflow columns such as *Development paused*, *Unprioritised*, and future time buckets (e.g. 2026, Q1 2026, 2027).
 
-Since I currently don’t have full access to Focus Bear’s internal GitHub Projects backlog, this summary is based on standard PM practice, the structure used across my onboarding tasks, and the types of issues referenced in previous discussions (onboarding flows, UX polish, onboarding bugs, etc.).
-
-This provides a realistic understanding of *how* the backlog at Focus Bear most likely works and how items typically move from idea to completion.
+This provides a concrete understanding of how the Focus Bear backlog actually functions in practice and how items move from idea to implementation.
 
 ---
 
 ## What Is a Product Backlog?
 
-A product backlog is a structured list of everything the team might build — bugs, improvements, feature ideas, user requests, and exploratory tasks.  
-Unlike a roadmap, which shows long-term direction, the backlog acts as a **short-term, tactical planning tool** and evolves weekly based on feedback and priorities.
+At Focus Bear, the product backlog lives in **GitHub Projects** and represents all work that may be built in the future. This includes bugs, feature ideas, UX improvements, and technical work across mobile, backend, and web.
 
-For a startup like Focus Bear, the backlog supports:
+Unlike a roadmap, which communicates long-term direction and timelines, the backlog is a **tactical, operational tool** that:
+- Changes frequently
+- Reflects real engineering constraints
+- Supports continuous prioritisation rather than fixed sprint commitments
+
+For a startup like Focus Bear, the backlog enables:
 - Fast iteration  
-- Clear communication between PMs, developers, and designers  
-- Prioritisation based on user impact  
+- Clear visibility into work status  
+- Prioritisation based on impact, urgency, and feasibility  
 
 ---
 
-## Types of Backlog Items (Based on Typical Focus Bear Work)
+## Types of Backlog Items (Observed in Focus Bear’s Backlog)
 
-Even without direct access, the onboarding assignments give a clear picture of the types of items Focus Bear commonly works with.
+Reviewing the **Mobile App Tasks** board shows three clear types of backlog items.
 
-### 1. Bug Fixes  
-These include issues affecting experience or functionality, such as:
-- Overlapping UI elements  
-- Hidden buttons or cut-off labels  
-- Loading issues during onboarding  
-Bug items usually get higher priority because they directly block or frustrate users.
+### 1. Bug Fixes
 
-### 2. Feature Requests  
-Examples inferred from onboarding tasks:
-- Adding mascots or onboarding characters  
-- Improving time-input selectors  
-- Introducing new focus or reminder flows  
-Feature requests expand the app's capabilities or improve user motivation.
+These are issues where existing functionality does not behave as expected.
 
-### 3. UX / UI Improvements  
-Common across the app based on screenshots:
-- Copy improvements (greetings, clarity, tone)  
-- Layout adjustments  
-- Onboarding polish or simplification  
-These are smaller enhancements that make the product smoother and more accessible, especially for neurodivergent users.
+**Examples:**
+- `mobile-app #1399 – Error: Foreground service fails to stop`
+- `mobile-app #3729 – Sentry errors`
+
+These items directly impact reliability or user experience and are often prioritised higher, especially when they block users or cause crashes.
 
 ---
 
-## How Backlog Items Likely Move Through Focus Bear’s Workflow
+### 2. Feature Requests / Ideas
 
-Based on typical GitHub Projects workflows and how other tasks have been assigned:
+These are new capabilities or behavioural changes that extend the product.
 
-### 1. Idea Logged  
-A developer, PM, designer, or user surfaces an issue.  
-The item is added to GitHub with a short description.
+**Examples:**
+- `mobile-app #2734 – [IDEA] Geofencing – trigger custom routines`
+- `mobile-app #1953 – Support pomodoro mode on mobile`
 
-### 2. Clarification / Refinement  
-Before development, the PM adds:
-- A problem statement  
-- User story  
-- Acceptance criteria  
-- Notes for UX or engineering  
+Feature ideas are often placed into future time buckets (e.g. 2027 or Q1 2026) and may be labelled `needs-refinement`, indicating they are acknowledged but not yet ready for development.
 
-### 3. Prioritisation  
-Most likely based on:
-- User impact  
-- Alignment with OKRs  
-- Technical feasibility  
-- Urgency based on user feedback (Discord, Zoho Desk)
+---
 
-### 4. In Progress  
-Once developers pick up the task, it moves into the appropriate workflow column.  
-Questions may arise; PM clarifies as needed.
+### 3. UX / UI Improvements
 
-### 5. QA / Testing  
-After development, tasks are tested for:
-- Correctness  
-- Usability  
-- Accessibility (especially important for ADHD/autistic users)
+These focus on usability, accessibility, and clarity rather than core functionality.
 
-### 6. Done  
-The item is closed and may be monitored through analytics and support feedback.
+**Examples:**
+- `mobile-app #710 – [UI] Changes to manage apps UI design`
+- `mobile-app #883 – Selected time from Set Startup Time window will be reflected on the succeeding windows`
+
+These items improve consistency and reduce friction, which is especially important for Focus Bear’s neurodivergent user base.
+
+---
+
+## How Backlog Items Move Through Focus Bear’s Workflow
+
+Based on direct observation of the Mobile App Tasks board, backlog items typically move through the following stages.
+
+### 1. Idea or Issue Logged
+
+An item is created as a GitHub Issue by a developer, PM, QA, or through surfaced user feedback.
+
+**Example:**
+- `mobile-app #2734 – [IDEA] Geofencing – trigger custom routines`
+
+---
+
+### 2. Initial Categorisation
+
+The issue is:
+- Tagged by platform (mobile-app, backend, web-dashboard)
+- Labelled by type (bug, idea, UI, project)
+- Added to the Mobile App Tasks board
+
+---
+
+### 3. Refinement
+
+Some items receive additional context, comments, or labels such as `needs-refinement`.  
+This indicates the scope, acceptance criteria, or technical approach still needs clarification before development can begin.
+
+---
+
+### 4. Prioritisation & Scheduling
+
+Instead of fixed sprints, Focus Bear uses **time-based prioritisation columns**, such as:
+- *Unprioritised – don’t touch for now*
+- *2026*
+- *Q1 2026*
+- *2027*
+
+This keeps future work visible while allowing flexibility.
+
+---
+
+### 5. Blocked or Paused Work
+
+Items that cannot proceed due to external dependencies move into:
+
+**Development paused – waiting for upstream dependencies**
+
+**Example:**
+- `mobile-app #3276 – Replace pusher beams with firebase cloud messenger`
+
+This ensures blocked work is tracked rather than forgotten.
+
+---
+
+### 6. Active Development → QA → Completion
+
+Once prioritised and unblocked, items move into development, are tested, and eventually closed. Completed work remains accessible through GitHub issue history.
 
 ---
 
 ## Reflection
 
-### What I Noticed About the Backlog Structure (Based on Tasks)
+### What I Noticed About the Backlog Structure
 
-The backlog seems heavily focused on:
-- Improving onboarding  
-- Fixing inconsistencies  
-- Enhancing accessibility  
-- Addressing user confusion or friction points  
-This matches the needs of neurodivergent users who benefit from clear, predictable flows.
+The backlog is:
+- Transparent about priority and status
+- Organised around continuous prioritisation
+- Explicit about blocked work and future ideas
+- Shared across platforms while allowing mobile-specific focus
 
-### Challenges in Backlog Management  
-
-Common challenges I expect at Focus Bear include:
-- Prioritising many small UX issues without losing sight of big features  
-- Ensuring acceptance criteria are always clear  
-- Coordinating async communication across time zones  
-- Managing duplicate user feedback across Discord, email, and testing sessions  
-
-### One Improvement I Would Suggest  
-
-Introduce a consistent template for every backlog item, including:
-- Problem  
-- User impact  
-- Acceptance criteria  
-- Dependencies  
-- Priority score (e.g., RICE)
-
-This prevents ambiguity and helps developers move faster.
+This structure supports rapid iteration without losing visibility of long-term work.
 
 ---
 
-## Summary  
+### Challenges in Backlog Management
 
-Even without full repo access, it’s clear that Focus Bear’s backlog supports rapid iteration, user-driven improvements, and structured refinement. Understanding how these items evolve from idea → refinement → development helps PMs stay aligned with both user needs and business goals.
+Some challenges that stand out include:
+- Balancing urgent bugs with long-term feature ideas
+- Preventing unprioritised items from stagnating
+- Ensuring adequate refinement before development starts
+- Coordinating work across multiple platforms
 
+---
+
+### One Improvement I Would Suggest
+
+Introduce a lightweight refinement checklist for items entering future-dated columns, including:
+- Clear problem statement
+- User impact
+- Acceptance criteria
+- Known dependencies
+
+This would reduce clarification overhead and speed up development when items are picked up.
+
+---
+
+## Summary
+
+By reviewing the **Mobile App Tasks** GitHub Project, it’s clear that Focus Bear manages its backlog through continuous prioritisation, clear status signalling, and strong visibility across bugs, features, and UX improvements. Understanding how real backlog items move from idea → refinement → prioritisation → development provides a solid foundation for effective product management at Focus Bear.
