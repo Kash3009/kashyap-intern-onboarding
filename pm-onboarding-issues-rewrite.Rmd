@@ -1,0 +1,186 @@
+---
+title: "Rewriting Onboarding Issues for Future Focus Bear Interns"
+author: "Kashyap Mavadhiya"
+date: "January 2026"
+---
+
+# Rewriting Onboarding Issues  
+## Improving Clarity, Access, and Execution for Future Interns
+
+### Purpose
+
+This document rewrites selected onboarding GitHub issues based on firsthand onboarding experience.  
+The goal is to make onboarding tasks clearer, more actionable, and easier to complete for future interns, reducing confusion, delays, and unnecessary back-and-forth.
+
+Each rewritten issue preserves the original learning objective while improving clarity, structure, and expectations.
+
+---
+
+## Issue 1: Analysing User Behaviour Using PostHog
+
+### Original Intent
+Analyse onboarding behaviour using PostHog to identify drop-offs and provide product insights.
+
+### What Was Unclear
+- It was unclear whether interns would have access to **real Focus Bear PostHog data** or should use demo data.
+- The task did not specify **which funnel**, **which time range**, or **what level of detail** was expected.
+- Screenshot requirements were mentioned but not clearly defined.
+
+### Rewritten Issue (Improved Version)
+
+> **Task: Analyse Onboarding Drop-Offs Using PostHog**
+>
+> **Before starting:**  
+> Confirm you have access to Focus Bear’s PostHog workspace. If access is missing, request read-only access.
+>
+> **Steps:**
+> 1. Open PostHog → Dashboards or Funnels.
+> 2. Analyse the onboarding flow (sign-up → first focus session).
+> 3. Identify **one clear drop-off point**.
+> 4. Segment results by platform if available.
+> 5. Take screenshots showing funnel steps, percentages, and date range.
+>
+> **Deliverable:**  
+> Submit findings in Markdown, including:
+> - Funnel reviewed
+> - Drop-off identified (with screenshot)
+> - Insight and one suggested product improvement
+
+---
+
+## Issue 2: Reviewing Support Tickets in Zoho Desk
+
+### Original Intent
+Review customer support tickets to extract recurring issues and insights.
+
+### What Was Unclear
+- Zoho Desk access was not provided upfront.
+- It was unclear which tickets were **in scope** (product vs admin/HR).
+- No guidance on ticket volume or categorisation criteria.
+
+### Rewritten Issue (Improved Version)
+
+> **Task: Review Customer Support Tickets in Zoho Desk**
+>
+> **Before starting:**  
+> Ensure you have read-only access to Zoho Desk.
+>
+> **Steps:**
+> 1. Review at least **20 recent customer tickets**.
+> 2. Exclude HR, internship, or admin-only tickets.
+> 3. Categorise tickets into:
+>    - Bugs / technical issues
+>    - Feature requests
+>    - Usability issues
+> 4. Identify **two recurring themes**.
+> 5. Deep-dive into one ticket:
+>    - What was the problem?
+>    - How was it handled?
+>    - What could have prevented it?
+>
+> **Deliverable:**  
+> Save insights in `pm-zoho-desk-insights.md`.
+
+---
+
+## Issue 3: Understanding How the Backlog Works at Focus Bear
+
+### Original Intent
+Understand how Focus Bear manages its backlog using GitHub Projects.
+
+### What Was Unclear
+- Access to the actual backlog was not guaranteed.
+- The task allowed generic answers, but the bot expected **real evidence**.
+- Expectations around screenshots and issue references were implicit.
+
+### Rewritten Issue (Improved Version)
+
+> **Task: Understand Focus Bear’s Backlog Using GitHub Projects**
+>
+> **Before starting:**  
+> Confirm access to Focus Bear’s GitHub Projects board.
+>
+> **Steps:**
+> 1. Review the **Mobile App Tasks** project in Board view.
+> 2. Identify three real backlog items:
+>    - One bug
+>    - One feature request
+>    - One UX/UI improvement
+> 3. Note their:
+>    - Issue number
+>    - Title
+>    - Current status/column
+> 4. Take screenshots showing items in different columns.
+> 5. Summarise how one item moves from idea → prioritisation → completion.
+>
+> **Deliverable:**  
+> Save findings in `pm-backlog-overview.md` with screenshots embedded.
+
+---
+
+## Issue 4: Closing Issues and Bot Marking
+
+### Original Intent
+Ensure onboarding work is reviewed and marked automatically.
+
+### What Was Unclear
+- It was not clear that **issues must be closed** for the bot to run.
+- Where to view bot feedback was not documented.
+
+### Rewritten Issue (Improved Version)
+
+> **Task: Finalise Onboarding Issues for Bot Review**
+>
+> **Important Notes:**
+> - The onboarding bot only runs after **issues are closed**.
+> - Work should be pushed to the correct repository before closing.
+>
+> **Steps:**
+> 1. Push completed Markdown files to the repo.
+> 2. Verify files follow naming conventions.
+> 3. Close the related GitHub issue.
+> 4. Check the issue thread or bot comment for feedback.
+>
+> If feedback does not appear, flag it to the onboarding contact.
+
+---
+
+## Issue 5: Tool Access During Onboarding
+
+### Original Intent
+Enable interns to use required tools effectively.
+
+### What Was Unclear
+- Access to PostHog and Zoho Desk required manual follow-ups.
+- No single place documented which tools interns should expect access to.
+
+### Rewritten Issue (Improved Version)
+
+> **Task: Tool Access Checklist (Onboarding)**
+>
+> During your first week, confirm access to:
+> - GitHub repositories
+> - GitHub Projects backlog
+> - PostHog (read-only)
+> - Zoho Desk (read-only)
+>
+> If any access is missing, request it immediately to avoid blocking onboarding tasks.
+
+---
+
+## Reflection
+
+### What This Improves
+- Reduces onboarding friction
+- Sets clear expectations
+- Prevents interns from getting blocked on access or ambiguity
+- Makes onboarding tasks faster and more consistent
+
+### Why This Matters
+Clear onboarding issues allow interns to spend time learning and contributing, not guessing requirements or chasing access.
+
+---
+
+## Conclusion
+
+Rewriting onboarding issues based on real experience improves efficiency, consistency, and learning outcomes for future interns. These changes preserve the original intent of each task while making them easier to execute and evaluate.
